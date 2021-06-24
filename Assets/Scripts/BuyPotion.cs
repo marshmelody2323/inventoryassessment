@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BuyPotion : MonoBehaviour
 {
-    public int score;
+    public static int score;
     public Text scoreText;
 
 
@@ -20,6 +20,7 @@ public class BuyPotion : MonoBehaviour
     {
         scoreText.text = score.ToString();
     }
+
 
     public void AddScore()
     {
