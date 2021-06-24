@@ -494,6 +494,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1839000322}
+        m_TargetAssemblyTypeName: ChangeSprite, Assembly-CSharp
+        m_MethodName: Sprite1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &49178079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6262,6 +6274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e360c34a99f6cb46888c315fe5ccded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprite2: {fileID: 21300000, guid: de3e24eef5a5f75439e5acb811285291, type: 3}
 --- !u!1 &1854719027
 GameObject:
   m_ObjectHideFlags: 0
