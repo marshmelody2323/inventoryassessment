@@ -482,6 +482,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1839000322}
+        m_TargetAssemblyTypeName: ChangeSprite, Assembly-CSharp
+        m_MethodName: change
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 7e61eb2b8994a2847a00554771dd7009, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &49178079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,6 +692,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Crimson Chestplate
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1839000322}
+        m_TargetAssemblyTypeName: ChangeSprite, Assembly-CSharp
+        m_MethodName: change
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 1c959cd7f0d97dd4e8312247b9e4dc50, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &52132784
@@ -4892,7 +4916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1336061682
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6161,6 +6185,7 @@ GameObject:
   - component: {fileID: 1839000319}
   - component: {fileID: 1839000321}
   - component: {fileID: 1839000320}
+  - component: {fileID: 1839000322}
   m_Layer: 5
   m_Name: CharacterImage
   m_TagString: Untagged
@@ -6184,8 +6209,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -708, y: -210}
-  m_SizeDelta: {x: 371.99, y: 548.55}
+  m_AnchoredPosition: {x: -697.45996, y: -194.98996}
+  m_SizeDelta: {x: 393.07, y: 548.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839000320
 MonoBehaviour:
@@ -6207,7 +6232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d7c071b119ed3d24cb0047c74cb2503c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6225,6 +6250,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839000318}
   m_CullTransparentMesh: 1
+--- !u!114 &1839000322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839000318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e360c34a99f6cb46888c315fe5ccded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1854719027
 GameObject:
   m_ObjectHideFlags: 0
